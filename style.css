@@ -1,0 +1,29 @@
+body {
+	background-color: bisque;
+}
+
+.controls {
+	border: 2px solid black;
+}
+
+.dice {
+	font-size: 5em;
+	display: inline-block;
+}
+
+.fail {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+#resultSummary .fail,
+#resultSummary .success {
+	font-size: 2em;
+}
+
+#resultSummary div {
+	display: inline-block;
+}
